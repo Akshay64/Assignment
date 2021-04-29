@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152406" started-at="2021-04-29T11:20:33Z" finished-at="2021-04-29T11:23:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitionsMobile.Runner@6adede5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="152406" started-at="2021-04-29T11:20:33Z" finished-at="2021-04-29T11:23:05Z">
+      <class name="StepDefinitionsMobile.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:StepDefinitionsMobile.Runner@6adede5]" name="setUpClass" is-config="true" duration-ms="1073" started-at="2021-04-29T16:50:33Z" finished-at="2021-04-29T16:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitionsMobile.Runner@6adede5]" name="runScenario" duration-ms="149550" started-at="2021-04-29T16:50:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-29T16:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify products getting added to wishlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Feature to test whether products are getting added to wishlist]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:StepDefinitionsMobile.Runner@6adede5]" name="tearDownClass" is-config="true" duration-ms="1758" started-at="2021-04-29T16:53:04Z" finished-at="2021-04-29T16:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinitionsMobile.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
